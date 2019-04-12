@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  background-color: #ffffff;
+}
+.square {
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  background-color: #efefef;
+  font-weight: bold;
+}
+.blue {
+  background-color: blue;
+}
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+}
+.fortune-layout {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  width: 525px;
+  height: 525px;
+  margin: 0;
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
