@@ -4,22 +4,40 @@ body {
 }
 .square {
   color: #fff;
-  padding: 1em;
   text-align: center;
   background-color: #efefef;
   font-weight: bold;
+  font-size: 40px;
+  font-family: arial;
+  text-shadow: 2px 2px 2px black;
 }
 .blue {
   background-color: blue;
 }
+.blue p {
+  transform: rotate(-45deg);
+  margin-top: 100px;
+}
 .red {
   background-color: red;
+}
+.red p{
+  transform: rotate(45deg);
+  margin-top: 100px;
 }
 .yellow {
   background-color: yellow;
 }
+.yellow p{
+  transform: rotate(-135deg);
+  margin-top: 100px;
+}
 .green {
   background-color: green;
+}
+.green p{
+  transform: rotate(135deg);
+  margin-top: 100px;
 }
 .fortune-layout {
   display: grid;
