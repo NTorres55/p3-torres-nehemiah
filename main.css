@@ -21,12 +21,12 @@ body {
   text-shadow: 2px 2px 2px black;
 }
 .hide {
-  display: none;
+  display: none!important;
 }
-/*.blink {
+.blink {
   color: #ef586b;
-  background-color: #87d6ef !important;
-}*/
+  background-color: #87d6ef;
+}
 .blue {
   background-color: blue;
 }
