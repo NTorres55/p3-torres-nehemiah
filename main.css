@@ -11,10 +11,22 @@ body {
   font-family: arial;
   text-shadow: 2px 2px 2px black;
 }
-.blink {
+.square-2 {
+  color: #ef586b;
+  text-align: center;
+  background-color: #87d6ef;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: arial;
+  text-shadow: 2px 2px 2px black;
+}
+.hide {
+  display: none;
+}
+/*.blink {
   color: #ef586b;
   background-color: #87d6ef !important;
-}
+}*/
 .blue {
   background-color: blue;
 }
