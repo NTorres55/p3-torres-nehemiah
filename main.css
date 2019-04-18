@@ -11,6 +11,10 @@ body {
   font-family: arial;
   text-shadow: 2px 2px 2px black;
 }
+.blink {
+  color: #ef586b;
+  background-color: #87d6ef !important;
+}
 .blue {
   background-color: blue;
 }
