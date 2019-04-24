@@ -1,8 +1,8 @@
 const myBoxes = document.getElementsByClassName('square');
 const mySecondBoxes = document.getElementsByClassName('square-2');
 
-const layerOne = document.getElementbyId('layer-one');
-const layerTwo = document.getElementbyId('layer-two');
+const layerOne = document.getElementById('layer-one');
+const layerTwo = document.getElementById('layer-two');
 
 //WK 11 101.24//
 // Functionality
