@@ -4,7 +4,6 @@ const mySecondBoxes = document.getElementsByClassName('square-2');
 const layerOne = document.getElementById('layer-one');
 const layerTwo = document.getElementById('layer-two');
 
-//WK 11 101.24//
 // Functionality
 function loopThrough() {
   const changeColor = () => this.classList.toggle('blink');
