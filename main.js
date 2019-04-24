@@ -14,6 +14,14 @@ function loopThrough() {
   }
 };
 
+function loopThroughNumber() {
+  const changeColor = () => this.classList.toggle('blink');
+  const numStringValue = this.textContent;
+  for ( let i = 0; i < Number(numStringValue * 2); i++) {
+    setTimeout(changeColor, i * 1000);
+  }
+};
+
 function changeLayer() {
   const swap = () => {
     layerOne.classList.add('hide');
@@ -36,4 +44,5 @@ for (let i = 0; i < myBoxes.length; i++) {
   myBoxes[i].addEventListener('click', changeLayer);
   mySecondBoxes[i].addEventListener('click', loopThrough);
   mySecondBoxes[i].addEventListener('click', changeLayerTwo);
+  myThirdBoxes[i].addEventListener('click', loopThroughNumber);
 };
