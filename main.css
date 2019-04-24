@@ -12,9 +12,18 @@ body {
   text-shadow: 2px 2px 2px black;
 }
 .square-2 {
-  color: #ef586b;
+  color: #fff;
   text-align: center;
   background-color: #87d6ef;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: arial;
+  text-shadow: 2px 2px 2px black;
+}
+.square-3 {
+  color: #fff;
+  text-align: center;
+  background-color: #efefef;
   font-weight: bold;
   font-size: 40px;
   font-family: arial;
